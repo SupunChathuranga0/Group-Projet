@@ -1,0 +1,205 @@
+.navbar{
+    background-color: rgb(251, 251, 251);
+    padding: .8rem;
+}
+
+.navbar-nav li{
+     padding-left: 50px;
+     padding-right: 50px;
+     font-size: large;
+}
+nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 630px
+}
+html{
+  scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+footer{
+    background-color: rgb(248, 229, 203);
+    padding-top: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.ft{
+  text-align: justify;
+}
+hr.light{
+    border-top: 1px soli;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}footer a{
+    color: #d5d5d5;
+}
+.contact_section {
+    color: #fff;
+    background: url(photos/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /*contact us*/
+  
+  .contact_section h2::before {
+    background-image: url(../images/herbal-white.png);
+  }
+  
+  .contact_section input {
+    width: 100%;
+    border: 0;
+    height: 50px;
+    border-radius: 30px;
+    margin: 20px 0;
+    padding-left: 25px;
+    background-color: #ffffff;
+    outline: none;
+    color: #101010;
+  }
+  
+  .contact_section input::-webkit-input-placeholder {
+    color: #131313;
+  }
+  
+  .contact_section input:-ms-input-placeholder {
+    color: #131313;
+  }
+  
+  .contact_section input::-ms-input-placeholder {
+    color: #131313;
+  }
+  
+  .contact_section input::placeholder {
+    color: #131313;
+  }
+  
+  .contact_section input.message-box {
+    height: 150px;
+  }
+  
+  .contact_section button {
+    background-color: #e92c06;
+    padding: 15px 55px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid #e92c06;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .contact_section button:hover {
+    color: #e92c06;
+    background-color: transparent;
+  }
+/*arrow*/
+.arrow{
+  position: fixed;
+  background-color:transparent;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  z-index: 99;
+}
+/*Product Line Card*/
+#box .card{
+  box-shadow: 0px 0px 5px black;
+  margin-top: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#box .card:hover{
+  transform: translateY(-10px);
+}
+
+
+/*end of the Home page*/
+
+/*About Section*/
+
+.about_section .about_container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 75px 45px;
+  background-image: url(photos/carousel/bgabout.jpg);
+  background-size: auto 100%;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -150px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+}
+
+/*overview*/
+.img-wrapper {
+  position: relative;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin-bottom: 30px;
+  display: block;
+  display: block;
+}
+
+.img-wrapper img {
+  position: relative;
+  width: 100%;
+  z-index: 8;
+}
+
+.img-wrapper .overlay {
+  background: rgba(255, 122, 87, 0.7);
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.img-wrapper .overlay .overlay-infos {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+  color: #fff;
+}
+
+
+.img-wrapper:hover .overlay, .img-wrapper:active .overlay {
+  bottom: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+.img-wrapper:hover .overlay .overlay-infos, .img-wrapper:active .overlay .overlay-infos {
+  top: 50%;
+}
+
+/*Product page*/
+
